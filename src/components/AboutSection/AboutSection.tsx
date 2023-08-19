@@ -48,18 +48,6 @@ function AboutSection() {
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-2">
-            <AccordionTrigger>Where do you live?</AccordionTrigger>
-            <AccordionContent className="text-[14px] cursor-default">
-              I live in{" "}
-              <span className="font-semibold">Jakarta, Indonesia</span>, but I
-              am currently doing my study in{" "}
-              <span className="font-semibold">
-                University of Diponegoro, Semarang
-              </span>
-              .
-            </AccordionContent>
-          </AccordionItem>
-          <AccordionItem value="item-3">
             <AccordionTrigger>What are you looking for?</AccordionTrigger>
             <AccordionContent className="text-[14px] cursor-default">
               I am looking for{" "}
@@ -76,15 +64,7 @@ function AboutSection() {
               opportunities.
             </AccordionContent>
           </AccordionItem>
-          <AccordionItem value="item-4">
-            <AccordionTrigger>Are you open for remote jobs?</AccordionTrigger>
-            <AccordionContent className="text-[14px] cursor-default">
-              I am open for both <span className="font-semibold ">remote</span>{" "}
-              and <span className="font-semibold ">in-office</span> jobs, but I
-              prefer remote jobs.
-            </AccordionContent>
-          </AccordionItem>
-          <AccordionItem value="item-5">
+          <AccordionItem value="item-3">
             <AccordionTrigger>What are your expertise?</AccordionTrigger>
             <AccordionContent className="text-[14px] cursor-default">
               My current expertise is{" "}
@@ -108,7 +88,7 @@ function AboutSection() {
               .
             </AccordionContent>
           </AccordionItem>
-          <AccordionItem value="item-6">
+          <AccordionItem value="item-4">
             <AccordionTrigger>Where can I see your projects?</AccordionTrigger>
             <AccordionContent className="text-[14px] cursor-default">
               You can see all of my projects on my{" "}
