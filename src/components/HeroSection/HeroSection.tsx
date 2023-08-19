@@ -20,6 +20,7 @@ import {
 } from "react-icons/tb";
 import { FiCopy } from "react-icons/fi";
 import { useToast } from "../ui/use-toast";
+import { Link } from "react-router-dom";
 
 function HeroSection() {
   // Shadcn/ui Toast
@@ -153,14 +154,14 @@ function HeroSection() {
                   </div>
                 </div>
               </div>
-              <a
-                href="/blog"
+              <Link
+                to={"/blog"}
                 className="blog-container border-2 lg:w-1/2 w-full bg-[#eaeaea] flex flex-col items-center justify-center"
               >
                 <p className="blog-text text-[#101010] text-[64px] cursor-pointer">
                   blog
                 </p>
-              </a>
+              </Link>
             </div>
             <Button
               onClick={onToast}
