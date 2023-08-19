@@ -30,10 +30,10 @@ function PreLoader() {
   }, []);
   return (
     <div className="preloader">
-      <div className="texts-container flex lg:row items-center text-center">
-        <span className="mx-5">Design</span>
-        <span className="mx-5">Develop</span>
-        <span className="mx-5">Deploy</span>
+      <div className="texts-container flex md:gap-5 gap-1 justify-center items-center text-center">
+        <span className="">Design</span>
+        <span className="">Develop</span>
+        <span className="">Deploy</span>
       </div>
     </div>
   );

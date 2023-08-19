@@ -22,7 +22,7 @@ function ProjectSection() {
           <span className="font-semibold text-[60px] project-title">
             Projects
           </span>
-          <span className="text-[100px] text-violet-400">.</span>
+          <span className="text-[100px] leading-none text-violet-400">.</span>
         </h1>
         <h2 className="text-center text-[#eaeaeadd] underline cursor-default underline-offset-4">
           things i have worked on.

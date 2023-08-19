@@ -27,7 +27,7 @@ function AboutSection() {
         <h1 className="lg:text-[35px] text-[42px] cursor-default text-center text-[#eaeaea] w-full leading-tight">
           about{" "}
           <span className="font-semibold text-[60px] about-title">Moon</span>
-          <span className="text-[100px] text-violet-400">.</span>
+          <span className="text-[100px] leading-none text-violet-400">.</span>
         </h1>
         <h2 className="text-center text-[#eaeaeadd] underline cursor-default underline-offset-4">
           a tidbit about me.
