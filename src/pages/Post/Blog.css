@@ -1,0 +1,30 @@
+/* Regular Blog Card */
+.grid-container {
+  min-width: 300px;
+}
+
+/* Big Blog Card */
+.blog-big-card .blog-big-display {
+  height: 0;
+  width: 100%;
+  opacity: 0;
+  transition: all 0.2s ease;
+}
+
+.blog-big-card:hover .blog-big-display {
+  opacity: 1;
+  height: 67%;
+}
+
+/* Small Blog Card */
+.blog-small-card .blog-small-display {
+  height: 0;
+  opacity: 0;
+  width: 100%;
+  transition: all 0.3s ease;
+}
+
+.blog-small-card:hover .blog-small-display {
+  opacity: 1;
+  height: 100%;
+}

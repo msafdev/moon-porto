@@ -1,0 +1,19 @@
+.blog-regular-card {
+  box-shadow: 0.4rem 0.4rem #e4e4e7;
+}
+
+.blog-regular-card .hover-button {
+  transition: all 1s ease;
+  transition-duration: 0.2s;
+  transform: scale(0) translateX(-100px);
+  opacity: 0;
+}
+
+.blog-regular-card:hover .hover-button {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.hover-button:hover {
+  text-decoration: underline;
+}

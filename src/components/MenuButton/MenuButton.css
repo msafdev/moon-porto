@@ -1,0 +1,83 @@
+.is-OpenSecond {
+  animation: secondLineIn 0.8s forwards;
+  transition: all 0.8s;
+}
+
+.is-ClosedSecond {
+  animation: secondLineOut 0.8s forwards;
+  transition: all 0.8s;
+}
+
+@keyframes secondLineIn {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes secondLineOut {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+
+.is-OpenFirst {
+  animation: firstLineIn 0.8s forwards;
+  transition: all 0.8s;
+}
+
+.is-ClosedFirst {
+  animation: firstLineOut 0.8s forwards;
+  transition: all 0.8s;
+}
+
+@keyframes firstLineIn {
+  0% {
+    transform: rotate(-45deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes firstLineOut {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-45deg);
+  }
+}
+
+.is-OpenThird {
+  animation: thirdLineIn 0.8s forwards;
+  transition: all 0.8s;
+}
+
+.is-ClosedThird {
+  animation: thirdLineOut 0.8s forwards;
+  transition: all 0.8s;
+}
+
+@keyframes thirdLineIn {
+  0% {
+    transform: rotate(45deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes thirdLineOut {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(45deg);
+  }
+}

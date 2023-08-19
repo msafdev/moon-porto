@@ -1,0 +1,43 @@
+.project-title {
+  color: #101010;
+  text-shadow: -1px -1px 0 #eaeaea, 1px -1px 0 #eaeaea, -1px 1px 0 #eaeaea,
+    1px 1px 0 #eaeaea;
+}
+
+.project-button {
+  animation: fadeOut 0.2s ease-in-out forwards;
+}
+
+.project-container:hover .project-button {
+  animation: fadeIn 0.2s ease-in-out forwards;
+}
+
+.project-button-badge {
+  animation: fadeOut 0.2s ease-in-out forwards;
+}
+
+.project-container:hover .project-button-badge {
+  animation: fadeIn 0.2s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    scale: 0;
+  }
+  100% {
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+    scale: 1;
+  }
+  100% {
+    opacity: 0;
+    scale: 0;
+  }
+}

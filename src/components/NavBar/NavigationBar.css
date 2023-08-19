@@ -1,0 +1,85 @@
+.links:hover {
+  color: #f5f5f5;
+}
+
+.line {
+  transition: width 1s ease; /* Add a transition for smooth animation */
+}
+
+.links:hover .line {
+  width: 100%; /* Change the width to 100% when hovering over the li */
+}
+
+@media (max-width: 1023px) {
+  @keyframes slideIn {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    50% {
+      transform: translateX(-5%);
+      opacity: 0.5;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes slideOut {
+    0% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    30% {
+      transform: translateX(5%);
+      opacity: 1;
+    }
+    100% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+  }
+
+  @keyframes slideHeight {
+    0% {
+      height: 0;
+    }
+    100% {
+      height: 100px;
+    }
+  }
+
+  @keyframes slideHeightOut {
+    0% {
+      height: 100px;
+    }
+    100% {
+      height: 0;
+    }
+  }
+
+  .slide-In :nth-child(1) {
+    animation: slideIn 0.4s forwards;
+  }
+
+  .slide-In :nth-child(2) {
+    animation: slideIn 0.6s forwards;
+  }
+
+  .slide-In :nth-child(3) {
+    animation: slideIn 0.8s forwards;
+  }
+
+  .slide-Out {
+    animation: slideOut 0.7s forwards;
+  }
+
+  .slide-Height {
+    animation: slideHeight 0.3s forwards;
+  }
+
+  .slide-HeightOut {
+    animation: slideHeightOut 0.3s forwards;
+  }
+}

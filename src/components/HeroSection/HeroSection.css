@@ -1,0 +1,97 @@
+.first-text {
+  transition: transform 0.5s ease-in-out;
+}
+
+.first-grid:hover .first-text {
+  transform: scale(0);
+}
+
+.first-grid:hover .second-text {
+  transform: scale(2) translate(0, -25%);
+}
+
+/* Email Button */
+
+.email-icon {
+  width: 0;
+  height: 0;
+  margin-left: 0;
+  opacity: 0;
+  transition: all ease-in-out 0.5s;
+}
+
+.button:hover .email-icon {
+  width: 20px;
+  height: 20px;
+  opacity: 1;
+  margin-left: 14px;
+  transition: all ease-in-out 0.5s;
+}
+
+.button:active .email-icon {
+  width: 20px;
+  height: 20px;
+  opacity: 1;
+  margin-left: 14px;
+  transition: all ease-in-out 0.5s;
+}
+
+/* Scroll Down Button */
+
+.pointer-scroll{
+  animation: scroll 2s ease-in-out infinite;
+}
+
+.pointer-container:hover .pointer-scroll{
+  background-color: #34d399;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(50px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* Blog Container */
+
+.blog-text {
+  font-family: "Bebas Neue", cursive;
+}
+
+.blog-text:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 0px;
+  background: #101010;
+  animation: lineDown 0.3s ease-in-out forwards;
+  transform: translateY(-24px);
+}
+
+.blog-container:hover .blog-text:after {
+  animation: lineUp 0.3s ease-in-out forwards;
+}
+
+@keyframes lineUp {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 4px;
+  }
+}
+
+@keyframes lineDown {
+  0% {
+    height: 4px;
+  }
+  100% {
+    height: 0;
+  }
+}

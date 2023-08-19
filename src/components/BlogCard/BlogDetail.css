@@ -1,0 +1,59 @@
+.detail img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.detail {
+    color: #090909;
+}
+
+.detail blockquote {
+    text-decoration: underline;
+    font-size: .8rem;
+}
+
+.detail h3 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-top: 1.2rem;
+  color: #090909;
+}
+
+.detail h6 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 0.8rem;
+  color: #090909;
+}
+
+.detail p {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  color: #090909;
+}
+
+.detail ul li {
+  list-style-type: circle;
+}
+
+.detail ol li {
+  list-style-type: decimal;
+  margin-left: 1rem;
+}
+
+.detail pre {
+  padding: 1rem;
+  overflow-x: auto;
+}
+
+.detail code {
+  max-width: 100%;
+  color: #090909;
+  overflow-x: auto;
+}
+
+/* medium devices */
+@media only screen and (max-width: 1020px) {
+}
